@@ -14,6 +14,10 @@
 	height: 720px;
 }
 
+.splashContainer h2 {
+	font-family: 'Cabin', sans-serif;
+}
+
 .splashHeadline {
 	text-align: center;
 }
@@ -32,3 +36,49 @@
 	border-radius: 15px;
 	margin-top: 165px;
 }
+
+.title {
+	text-align: center;
+}
+
+.title p strong{
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+}
+
+.title h1 {
+	display: inline-block;
+}
+
+.title p {
+	display: inline-block;
+}
+
+.moveCarOne {
+	float: left;
+}
+
+.moveCarTwo {
+	float: right;
+}
+
+.gameHeadline {
+	font-size: 60px;
+}
+
+.raceTrack {
+	margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
