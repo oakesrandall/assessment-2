@@ -1,0 +1,11 @@
+.gamePage {
+	background-image: url(../images/gamebg.jpg);
+	width: 1280px;
+	height: 720px;
+}
+
+.splashContainer {
+	background-image: url(../images/splashbg.jpg);
+	width: 1280px;
+	height: 720px;
+}
