@@ -1,3 +1,7 @@
+* {
+	font-family: 'Faster One', cursive;
+}
+
 .gamePage {
 	background-image: url(../images/gamebg.jpg);
 	width: 1280px;
@@ -8,4 +12,23 @@
 	background-image: url(../images/splashbg.jpg);
 	width: 1280px;
 	height: 720px;
+}
+
+.splashHeadline {
+	text-align: center;
+}
+
+.splashHeadline h1 {
+	font-size: 75px;
+}
+
+.splashButtonArea {
+	text-align: center;
+}
+
+#splashButton {
+	font-size: 50px;
+	border: 2px solid;
+	border-radius: 15px;
+	margin-top: 165px;
 }
