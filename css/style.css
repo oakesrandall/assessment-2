@@ -46,9 +46,7 @@
 	font-size: 1em;
 }
 
-.title h1 {
-	display: inline-block;
-}
+
 
 .title p {
 	display: inline-block;
@@ -74,6 +72,24 @@
 
 @media only screen
 	and (max-device-width: 1024px) {
+
+		.moveCarOne {
+			float: none;
+			font-size: 3em;
+			margin: 0 auto;
+			display: block;
+		}
+
+		.moveCarTwo {
+			float: none;
+			font-size: 3em;
+			margin: 0 auto;
+			display: block;
+		}
+
+		.title {
+			text-align: center;
+		}
 
 	}
 
