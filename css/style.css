@@ -4,14 +4,14 @@
 
 .gamePage {
 	background-image: url(../images/gamebg.jpg);
-	width: 1280px;
-	height: 720px;
+	max-width: 1280px;
+	max-height: 720px;
 }
 
 .splashContainer {
 	background-image: url(../images/splashbg.jpg);
-	width: 1280px;
-	height: 720px;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .splashContainer h2 {
@@ -23,7 +23,7 @@
 }
 
 .splashHeadline h1 {
-	font-size: 75px;
+	font-size: 5em;
 }
 
 .splashButtonArea {
@@ -31,7 +31,7 @@
 }
 
 #splashButton {
-	font-size: 50px;
+	font-size: 3em;
 	border: 2px solid;
 	border-radius: 15px;
 	margin-top: 165px;
@@ -43,7 +43,7 @@
 
 .title p strong{
 	font-family: 'Cabin', sans-serif;
-	font-size: 20px;
+	font-size: 1em;
 }
 
 .title h1 {
@@ -56,21 +56,26 @@
 
 .moveCarOne {
 	float: left;
+	margin: 1% 0  0 5%;
 }
 
 .moveCarTwo {
 	float: right;
+	margin: 1% 5% 0 0;
 }
 
 .gameHeadline {
-	font-size: 60px;
+	font-size: 4em;
 }
 
 .raceTrack {
 	margin-top: 200px;
 }
 
+@media only screen
+	and (max-device-width: 1024px) {
 
+	}
 
 
 
