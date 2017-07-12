@@ -1,35 +1,43 @@
+/*sets font for whole page*/
 * {
 	font-family: 'Faster One', cursive;
 }
 
+/*sets background and page size*/
 .gamePage {
 	background-image: url(../images/gamebg.jpg);
 	max-width: 1280px;
 	max-height: 720px;
 }
 
+/*sets background and page size for splash page*/
 .splashContainer {
 	background-image: url(../images/splashbg.jpg);
 	max-width: 100%;
 	max-height: 100%;
 }
 
+/*sets font for elements on splash page*/
 .splashContainer h2 {
 	font-family: 'Cabin', sans-serif;
 }
 
+/*centers elements in headline class on splash page*/
 .splashHeadline {
 	text-align: center;
 }
 
+/*changes font size of headline elements on splash page*/
 .splashHeadline h1 {
 	font-size: 5em;
 }
 
+/*centers button on splash page*/
 .splashButtonArea {
 	text-align: center;
 }
 
+/*styles button on splash page*/
 #splashButton {
 	font-size: 3em;
 	border: 2px solid;
@@ -37,39 +45,45 @@
 	margin-top: 165px;
 }
 
+/*aligns elements in title class*/
 .title {
 	text-align: center;
 }
 
+/*sets font and size of paragraph elements in title class*/
 .title p strong{
 	font-family: 'Cabin', sans-serif;
 	font-size: 1em;
 }
 
-
-
+/*makes title elements line up side-by-side if there's room*/
 .title p {
 	display: inline-block;
 }
 
+/*moves this to the left*/
 .moveCarOne {
 	float: left;
 	margin: 1% 0  0 5%;
 }
 
+/*moves this to the right*/
 .moveCarTwo {
 	float: right;
 	margin: 1% 5% 0 0;
 }
 
+/*sets size of headline on game page*/
 .gameHeadline {
 	font-size: 4em;
 }
 
+/*moves the racetrack class elements down*/
 .raceTrack {
 	margin-top: 200px;
 }
 
+/*if the device has a screen with a width of less than 1024px, the page adjusts its layout*/
 @media only screen
 	and (max-device-width: 1024px) {
 
@@ -92,14 +106,3 @@
 		}
 
 	}
-
-
-
-
-
-
-
-
-
-
-
